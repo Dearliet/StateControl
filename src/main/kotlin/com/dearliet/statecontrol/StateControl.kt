@@ -3,7 +3,7 @@ package com.dearliet.statecontrol
 import org.bukkit.plugin.java.JavaPlugin
 
 /**
- * A singleton object that serves as the central access point to the plugin instance within the StateControl framework.
+ * A singleton object that operates as the primary point of entry for accessing the plugin instance in the StateControl framework.
  * */
 object StateControl {
 
