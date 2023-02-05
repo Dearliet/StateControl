@@ -12,7 +12,7 @@ object StateControl {
     /**
      * Sets the implementation to be used by the framework.
      *
-     * @param plugin The plugin to be used.
+     * @param plugin The [JavaPlugin] to be used.
      * */
     fun setImplementation(plugin: JavaPlugin){
         instance = plugin
