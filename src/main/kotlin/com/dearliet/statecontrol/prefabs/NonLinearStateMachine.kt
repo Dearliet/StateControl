@@ -11,6 +11,9 @@ import com.dearliet.statecontrol.prefabs.BaseState.StateMachine
 abstract class NonLinearStateMachine<T : Any, E: Enum<E>>(owner: T, parentStateMachine: StateMachine<T, *>? = null)
     : StateMachine<T, E>(owner, parentStateMachine) {
 
+    /**
+     * A [LinkedHashMap] that holds the state constructors or factories.
+     */
     abstract override val initStates: LinkedHashMap<E, () -> BaseState<T>>
 
     override val stateFactory: LinkedHashMap<E, () -> BaseState<T>>

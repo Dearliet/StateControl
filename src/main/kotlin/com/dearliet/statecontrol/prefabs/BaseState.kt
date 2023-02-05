@@ -31,6 +31,9 @@ sealed class BaseState<T: Any>(protected val owner: T, open val parentStateMachi
     sealed class StateMachine<T: Any, E: Any>(owner: T, parentStateMachine: StateMachine<T, *>?)
         : BaseState<T>(owner, parentStateMachine) {
 
+        /**
+         * Holds the state constructors or factories.
+         */
         protected abstract val initStates: Any
         /**
          * A [LinkedHashMap] that holds the state constructors or factories.

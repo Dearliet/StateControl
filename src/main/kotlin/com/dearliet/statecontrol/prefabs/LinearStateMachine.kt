@@ -11,6 +11,9 @@ import com.dearliet.statecontrol.prefabs.BaseState.StateMachine
 abstract class LinearStateMachine<T : Any>(owner: T, parentStateMachine: StateMachine<T, *>? = null)
     : StateMachine<T, Int>(owner, parentStateMachine) {
 
+    /**
+     * A [List] that holds the state constructors or factories.
+     */
     abstract override val initStates: List<() -> BaseState<T>>
 
     override val stateFactory: LinkedHashMap<Int, () -> BaseState<T>>
