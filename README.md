@@ -14,4 +14,3 @@
 <br><br><br>
 
 * ### Check out the [Beginner's Guide](https://github.com/Dearliet/StateControl/wiki/Guide)
-* ### Ask for help on the [Discord Server]()
