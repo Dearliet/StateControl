@@ -13,4 +13,4 @@
 
 <br><br><br>
 
-* ### Check out the [Beginner's Guide](https://github.com/Dearliet/StateControl/wiki/Guide)
+* ### Read the [Beginner's Guide](https://github.com/Dearliet/StateControl/wiki/Guide)
